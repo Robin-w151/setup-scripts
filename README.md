@@ -4,5 +4,5 @@
 
 ### Debian
 
-`sh -c "https://raw.githubusercontent.com/Robin-w151/setup-scripts/main/shell-debian.sh"`
+`sh -c "$(curl -fsSL 'https://raw.githubusercontent.com/Robin-w151/setup-scripts/main/shell-debian.sh')"`
 
