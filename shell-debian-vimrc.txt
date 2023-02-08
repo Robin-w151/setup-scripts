@@ -1,0 +1,23 @@
+" Keymap settings
+inoremap jk <ESC>
+
+" Tabstop/spaces settings
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" Enable line numbers
+set number
+set ruler
+
+" Color settings
+set background=dark
+syntax on
+colorscheme default
+
+" Enable smart indentation
+set smartindent
+
+" Configure line wrapping
+set nowrap
+
