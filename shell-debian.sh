@@ -6,10 +6,6 @@ echo 'Installing dependencies'
 sudo apt update
 sudo apt install wget git zsh fzf tmux vim htop bmon iotop
 
-# Set default shell
-user=$(whoami)
-sudo chsh -s /usr/bin/zsh $user
-
 # Install oh-my-zsh
 echo 'Installing oh-my-zsh'
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
@@ -28,6 +24,7 @@ for font in "MesloLGS NF Regular.ttf" "MesloLGS NF Bold.ttf" "MesloLGS NF Italic
 done
 
 # Install vim config
+echo 'Installing vim config'
 wget -qO "$HOME/.vimrc" 'https://raw.githubusercontent.com/Robin-w151/setup-scripts/main/shell-debian-vimrc.txt'
 
 echo 'Finished.'
